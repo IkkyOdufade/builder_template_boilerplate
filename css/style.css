@@ -1,0 +1,949 @@
+html,
+body {
+  font-family: "Poppins", Sans-serif;
+}
+@media (min-width: 300px) and (max-width: 600px) {
+  .first_card {
+    background-image: url("../img/headerbanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #sub_banner {
+    display: block;
+    text-align: center;
+    width: 80%;
+    display: block;
+  }
+  #heading1 {
+    font-size: 51px;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 900;
+  }
+  #heading_small {
+    color: #ffffff;
+    font-family: "Lora", Sans-serif;
+    font-weight: bold;
+    line-height: 1.5em;
+    letter-spacing: 6px;
+    font-size: 19px;
+  }
+  #member_btn {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+    background-color: #425ee0;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-color: #ffffff;
+    border-radius: 50px 50px 50px 50px;
+    padding: 18px 70px 18px 70px;
+  }
+ 
+ .know_h2 {
+  color: #282828;
+  font-family: "Poppins", Sans-serif;
+  font-size: 63px;
+  letter-spacing: -3px;
+  font-weight: 800;
+  text-align: center;
+ }
+ .know_text {
+  font-family: "Lora", Sans-serif;
+  font-size: 17px;
+  line-height: 1.8em;
+  text-align: center;
+  display: inline-block;
+  width: 95%;
+margin-left: auto;
+margin-right: auto;
+}
+#member_btn {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1em;
+  letter-spacing: 0.7px;
+  background-color: #425ee0;
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color: #ffffff;
+  border-radius: 50px 50px 50px 50px;
+  padding: 18px 70px 18px 70px;
+}
+.member_bttn {
+  font-family: "Poppins", Sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1em;
+  letter-spacing: 0.7px;
+  background-color: #425ee0;
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color: #ffffff;
+  border-radius: 50px 50px 50px 50px;
+  padding: 18px 70px 18px 70px;
+}
+.second_card {
+  background-image: url("../img/citybanner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.city_text {
+  color: rgba(255, 255, 255, 0.73);
+  font-family: "Lora", Sans-serif;
+  font-size: 19px;
+  line-height: 1.8em;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.third_card {
+  background-image: url("../img/mountainbanner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.equip_h1 {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 45px;
+  letter-spacing: -3px;
+  font-weight: 700;
+}
+.fourth_class {
+  background-image: url("../img/all.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heads_h2 {
+  font-size: 50px;
+  color: #282828;
+  font-family: "Poppins", Sans-serif;
+  letter-spacing: -3px;
+  font-weight: 800;
+  text-align: center;
+}
+.heads_p {
+  text-align: center;
+}
+.join_btn {
+  font-family: "Poppins", Sans-serif;
+  font-weight: 500;
+  line-height: 1em;
+  letter-spacing: 0.7px;
+  background-color: #3d52b6;
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius: 50px 50px 50px 50px;
+  padding: 15px 40px 15px 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inbox_icon {
+  color: #1e73be;
+  font-size: 33px;
+ text-align: center;
+}
+.expect_text {
+  color: #282828;
+  font-family: "Poppins", Sans-serif;
+  font-size: 37px;
+  text-transform: capitalize;
+  line-height: 1.2em;
+  letter-spacing: -3px;
+  font-weight: 700;
+  text-align: center;
+}
+.expect_para {
+  font-family: "Lora", Sans-serif;
+  font-size: 17px;
+  text-align: center;
+}
+.fifth_class {
+  background-image: url("../img/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sneak_text {
+  color: #fff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 35px;
+  text-transform: capitalize;
+  line-height: 1.2em;
+  letter-spacing: -3px;
+  font-weight: 700;
+  border-bottom: 1px dotted #000;
+}
+.reviews_section {
+  background-color: #4054b2;
+}
+
+.review_text {
+  color: rgb(255, 255, 255);
+  font-family: Lora, sans-serif;
+  font-size: 19px;
+  white-space: normal;
+  text-align: left;
+}
+.quote_icon {
+  font-size: 66px;
+  color: #fff;
+}
+.sound_border {
+  border-bottom: 1px dotted #000;
+  width: 20%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.signed_text {
+  font-family: Lora, sans-serif;
+  font-size: 19px;
+  white-space: normal;
+  text-align: left;
+  font-weight: 600;
+  width: 80%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rev_name {
+  font-style: italic;
+  font-family: Lora, sans-serif;
+  font-size: 19px;
+  white-space: normal;
+  text-align: left;
+}
+.rev_texts {
+  width: 70%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.each_rev_img {
+  width: 60px;
+height: 60px;
+}
+
+.love_icon_span {
+  font-size: 50px;
+}
+#love_icon {
+  stroke: #fff;
+  fill: transparent;
+}
+.faq_h {
+  color: #f6f6f6;
+  font-size: 33px;
+  font-weight: 900;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+}
+.join_btn {
+  font-family: "Poppins", Sans-serif;
+  font-weight: 500;
+  line-height: 1em;
+  letter-spacing: 0.7px;
+  background-color: #3d52b6;
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius: 50px 50px 50px 50px;
+  padding: 15px 40px 15px 40px;
+}
+.text_di {
+  border-bottom: 2px dotted #fff;
+}
+.faq_div a {
+  color: #ffe86a;
+  font-size: 23px;
+  text-decoration: none;
+}
+.faq_ul {
+  list-style: none;
+  padding: 0;
+}
+.faq_ul li {
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+  padding: 15px;
+  border-bottom: 1px solid #d4d4d4;
+  cursor: pointer;
+  outline: none;
+}
+.dropdown_icon {
+  margin-right: 1em;
+}
+.last_btn {
+  font-family: "Poppins", Sans-serif;
+  font-weight: 500;
+  line-height: 1em;
+  letter-spacing: 0.7px;
+  background-color: #3856e5;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 0px 11px 10px 0px rgba(0, 0, 0, 0.5);
+  padding: 18px 40px 18px 40px;
+}
+.last_heading {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 45px;
+  letter-spacing: -3px;
+  font-weight: 800;
+}
+.sail_div {
+  background-image: url("../img/sailimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sail_div p {
+  color: rgba(255, 255, 255, 0.73);
+  font-family: "Lora", Sans-serif;
+  font-size: 21px;
+  line-height: 1.8em;
+}
+
+.heads_p {
+  line-height: 1.8em;
+  color: #ffffff;
+  font-family: "Lora", Sans-serif;
+  font-size: 19px;
+}
+.sixth_class {
+  background-image: url("../img/newmove(1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.seventh_class {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .first_card {
+    background-image: url("../img/headerbanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #sub_banner {
+    display: flex;
+    justify-content: center;
+  }
+  #heading1 {
+    font-size: 55px;
+    font-weight: 900;
+
+  }
+  #heading_small {
+    font-size: 19px;
+  }
+  #member_btn {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+    background-color: #425ee0;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #ffffff;
+    border-radius: 50px 50px 50px 50px;
+    padding: 18px 70px 18px 70px;
+  }
+  .know_h2 {
+    color: #282828;
+    font-family: "Poppins", Sans-serif;
+    font-size: 63px;
+    font-weight: 800;
+    letter-spacing: -3px;
+  }
+  .member_bttn {
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+    background-color: #425ee0;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #ffffff;
+    border-radius: 50px 50px 50px 50px;
+    padding: 18px 70px 18px 70px;
+  }
+  .know_text {
+    font-family: "Lora", Sans-serif;
+    font-size: 17px;
+    line-height: 1.8em;
+  }
+  .second_card {
+    background-image: url("../img/citybanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .third_card {
+    background-image: url("../img/mountainbanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .city_text {
+    color: rgba(255, 255, 255, 0.73);
+    font-family: "Lora", Sans-serif;
+    font-size: 19px;
+    line-height: 1.8em;
+  }
+  .sound_div {
+    font-family: "Lora", Sans-serif;
+  }
+  .sound_text {
+    font-family: "Lora", Sans-serif;
+    font-size: 21px;
+    line-height: 1.8em;
+
+  }
+  .sound_border {
+    border-bottom: 1px dotted #000;
+  }
+  .relate_text {
+    font-size: 33px;
+    line-height: 1.5em;
+  }
+  .equip_h1 {
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 75px;
+    letter-spacing: -3px;
+    font-weight: 700;
+  }
+  .icons {
+    font-size: 19px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    padding: 0.5em;
+  }
+  .card_title {
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 2.2em;
+    letter-spacing: -0.5px;
+  }
+  .inbox_icon {
+    color: #1e73be;
+    font-size: 33px;
+  }
+  .expect_text {
+    color: #282828;
+    font-family: "Poppins", Sans-serif;
+    font-size: 49px;
+    text-transform: capitalize;
+    line-height: 1.2em;
+    letter-spacing: -3px;
+    font-weight: 700;
+  }
+  .expect_para {
+    font-family: "Lora", Sans-serif;
+    font-size: 17px;
+  }
+  .sneak_text {
+    color: #fff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 49px;
+    text-transform: capitalize;
+    line-height: 1.2em;
+    letter-spacing: -3px;
+    font-weight: 700;
+
+  }
+  .reviews_section {
+    background-color: #4054b2;
+  }
+  .review_div {
+  }
+  .review_text {
+    color: rgb(255, 255, 255);
+    font-family: Lora, sans-serif;
+    font-size: 19px;
+    white-space: normal;
+    text-align: left;
+  }
+  .quote_icon {
+    font-size: 66px;
+    color: #fff;
+  }
+  .signed_text {
+    font-family: Lora, sans-serif;
+    font-size: 19px;
+    white-space: normal;
+    text-align: left;
+    font-weight: 600;
+  }
+  .rev_name {
+    font-style: italic;
+    font-family: Lora, sans-serif;
+    font-size: 19px;
+    white-space: normal;
+    text-align: left;
+  }
+  .each_rev img {
+  }
+  .love_icon_span {
+    font-size: 50px;
+  }
+  #love_icon {
+    stroke: #fff;
+    fill: transparent;
+  }
+  .faq_h {
+    color: #f6f6f6;
+    font-size: 33px;
+    font-weight: 900;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+  }
+  .join_btn {
+    font-family: "Poppins", Sans-serif;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+    background-color: #3d52b6;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 50px 50px 50px 50px;
+    padding: 15px 40px 15px 40px;
+  }
+  .text_di {
+    border-bottom: 2px dotted #fff;
+  }
+  .faq_div a {
+    color: #ffe86a;
+    font-size: 23px;
+    text-decoration: none;
+  }
+  .faq_ul {
+    list-style: none;
+    padding: 0;
+  }
+  .faq_ul li {
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+    padding: 15px;
+    border-bottom: 1px solid #d4d4d4;
+    cursor: pointer;
+    outline: none;
+  }
+  .dropdown_icon {
+    margin-right: 1em;
+  }
+  .last_btn {
+    font-family: "Poppins", Sans-serif;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+    background-color: #3856e5;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 11px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 18px 40px 18px 40px;
+  }
+  .last_heading {
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 104px;
+    letter-spacing: -3px;
+    font-weight: 800;
+  }
+  .sail_div p {
+    color: rgba(255, 255, 255, 0.73);
+    font-family: "Lora", Sans-serif;
+    font-size: 21px;
+    line-height: 1.8em;
+  }
+  .heads_h2 {
+    font-size: 65px;
+    color: #282828;
+    font-family: "Poppins", Sans-serif;
+    letter-spacing: -3px;
+    font-weight: 800;
+    text-align: left;
+  }
+  .heads_p {
+    line-height: 1.8em;
+    color: #ffffff;
+    font-family: "Lora", Sans-serif;
+    font-size: 19px;
+  }
+  .sound_border {
+    border-bottom: 1px dashed #000;
+    width: 30%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sixth_class {
+    background-image: url("../img/newmove(1).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .seventh_class {
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .fifth_class {
+    background-image: url("../img/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .third_card {
+    background-image: url("../img/mountainbanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .equip_h1 {
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    letter-spacing: -3px;
+    font-weight: 700;
+  }
+  .fourth_class {
+    background-image: url("../img/all.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .sail_div {
+    background-image: url("../img/sailimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .sail_div p {
+    color: rgba(255, 255, 255, 0.73);
+    font-family: "Lora", Sans-serif;
+    font-size: 21px;
+    line-height: 1.8em;
+  }
+}
+@media (min-width: 1024px) {
+  .first_card {
+    background-image: url("../img/headerbanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #sub_banner {
+    display: flex;
+    justify-content: center;
+    border-top: 1px dotted #fff;
+  }
+  #heading1 {
+    color: #ffffff;
+font-family: "Poppins", Sans-serif;
+font-size: 89px;
+letter-spacing: -3px;
+    font-weight: 900;
+  }
+  #heading_small {
+    color: #ffffff;
+    font-family: "Lora", Sans-serif;
+    font-weight: bold;
+    line-height: 1.5em;
+    letter-spacing: 6px;
+  }
+  #member_btn {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+    background-color: #425ee0;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #ffffff;
+    border-radius: 50px 50px 50px 50px;
+    padding: 18px 70px 18px 70px;
+  }
+  .second_card {
+    background-image: url("../img/citybanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .know_h2 {
+    color: #282828;
+    font-family: "Poppins", Sans-serif;
+    font-size: 63px;
+    font-weight: 800;
+    letter-spacing: -3px;
+  }
+  .member_bttn {
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+    background-color: #425ee0;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #ffffff;
+    border-radius: 50px 50px 50px 50px;
+    padding: 18px 70px 18px 70px;
+  }
+  .know_text {
+    font-family: "Lora", Sans-serif;
+    font-size: 17px;
+    line-height: 1.8em;
+  }
+  .city_text {
+    color: rgba(255, 255, 255, 0.73);
+    font-family: "Lora", Sans-serif;
+    font-size: 19px;
+    line-height: 1.8em;
+  }
+  .sound_div {
+    font-family: "Lora", Sans-serif;
+  }
+  .sound_text {
+    font-family: "Lora", Sans-serif;
+    font-size: 21px;
+    line-height: 1.8em;
+  }
+  .relate_text {
+    font-size: 33px;
+    line-height: 1.5em;
+  }
+  .equip_h1 {
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 75px;
+    letter-spacing: -3px;
+    font-weight: 700;
+  }
+  .people_h1 {
+    color: #EFEFFF;
+font-family: "Poppins", Sans-serif;
+font-size: 93px;
+letter-spacing: -3px;
+font-weight: 700;
+  }
+  .icons {
+    font-size: 19px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    padding: 0.5em;
+  }
+  .card_title {
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 2.2em;
+    letter-spacing: -0.5px;
+  }
+  .inbox_icon {
+    color: #1e73be;
+    font-size: 33px;
+  }
+  .expect_text {
+    color: #282828;
+    font-family: "Poppins", Sans-serif;
+    font-size: 49px;
+    text-transform: capitalize;
+    line-height: 1.2em;
+    letter-spacing: -3px;
+    font-weight: 700;
+  }
+  .expect_para {
+    font-family: "Lora", Sans-serif;
+    font-size: 17px;
+  }
+  .sneak_text {
+    color: #fff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 49px;
+    text-transform: capitalize;
+    line-height: 1.2em;
+    letter-spacing: -3px;
+    font-weight: 700;
+  }
+  .reviews_section {
+    background-color: #4054b2;
+  }
+  .review_div {
+  }
+  .review_text {
+    color: rgb(255, 255, 255);
+    font-family: Lora, sans-serif;
+    font-size: 19px;
+    white-space: normal;
+    text-align: left;
+  }
+  .quote_icon {
+    font-size: 66px;
+    color: #fff;
+  }
+  .signed_text {
+    font-family: Lora, sans-serif;
+    font-size: 19px;
+    white-space: normal;
+    text-align: left;
+    font-weight: 600;
+  }
+  .rev_name {
+    font-style: italic;
+    font-family: Lora, sans-serif;
+    font-size: 19px;
+    white-space: normal;
+    text-align: left;
+  }
+
+  .love_icon_span {
+    font-size: 50px;
+    text-align: center;
+  }
+  #love_icon {
+    stroke: #fff;
+    fill: transparent;
+  }
+  .faq_h {
+    color: #f6f6f6;
+    font-size: 33px;
+    font-weight: 900;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+  }
+  .sound_border {
+    border-bottom: 1px dashed #000;
+    width: 30%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .each_rev_img {
+    width: 60px;
+  height: 60px;
+  }
+  .sixth_class {
+    background-image: url("../img/newmove(1).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .seventh_class {
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .fifth_class {
+    background-image: url("../img/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .third_card {
+    background-image: url("../img/mountainbanner.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+background-size: cover;
+  }
+  
+  .fourth_class {
+    background-image: url("../img/all.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+background-size: cover;
+height: 100vh;
+}
+  .sail_div {
+    background-image: url("../img/sailimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .sail_div p {
+    color: rgba(255, 255, 255, 0.73);
+    font-family: "Lora", Sans-serif;
+    font-size: 21px;
+    line-height: 1.8em;
+  }
+  .heads_h2 {
+    font-size: 65px;
+    color: #282828;
+    font-family: "Poppins", Sans-serif;
+    letter-spacing: -3px;
+    font-weight: 800;
+    text-align: center;
+  }
+  .join_btn {
+    font-family: "Poppins", Sans-serif;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+    background-color: #3d52b6;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 50px 50px 50px 50px;
+    padding: 15px 40px 15px 40px;
+  }
+  .heads_h2 {
+    text-align: left;
+    padding-top: 3em;
+  }
+  .heads_p {
+    color: #FFFFFF;
+font-family: "Lora", Sans-serif;
+font-size: 19px;
+line-height: 1.8em;
+  }
+  .text_di {
+    border-bottom: 2px dotted #fff;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+   .text_di {
+    border-bottom: 2px dotted #fff;
+  }
+  .faq_div a {
+    color: #ffe86a;
+    font-size: 23px;
+    text-decoration: none;
+  }
+  .faq_ul {
+    list-style: none;
+    padding: 0;
+  }
+  .faq_ul li {
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+    padding: 15px;
+    border-bottom: 1px solid #d4d4d4;
+    cursor: pointer;
+    outline: none;
+  }
+  .dropdown_icon {
+    margin-right: 1em;
+  }
+  .last_btn {
+    font-family: "Poppins", Sans-serif;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+    background-color: #3856e5;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 11px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 18px 40px 18px 40px;
+  }
+  .last_heading {
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 104px;
+    letter-spacing: -3px;
+    font-weight: 800;
+  }
+}
+#heading_small {
+  font-family: "Lora", Sans-serif;
+}
+#heading1 {
+  font-family: "Poppins", Sans-serif;
+}
+small {
+  color: rgba(255, 255, 255, 0.65);
+}
