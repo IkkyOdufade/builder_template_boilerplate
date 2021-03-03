@@ -1,355 +1,372 @@
-body,
-html {
-  font-family: "Montserrat", sans-serif;
+html,
+body {
+  font-family: "Inter", sans-serif;
 }
 @media (min-width: 300px) and (max-width: 600px) {
-  .first_section {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("./images/1stbanner.jpg");
-    background-position: 50% 50%;
-    height: 50vh;
+  .heading1 {
+    font-size: 42px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    line-height: 1.25em;
   }
-  .overlay_sec {
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
-    z-index: 0;
+  .box {
+    box-shadow: 0 5px 30px 0 rgba(214, 215, 216, 0.57);
+    border-radius: 5%;
   }
-  .first_section h2 {
+  .heading2 {
     font-size: 30px;
-    line-height: 36px;
+    letter-spacing: 0px;
+    color: #4a4a4a;
+  }
+  .headingh2 {
+    font-size: 30px;
+    letter-spacing: 0px;
+    color: #4a4a4a;
     font-weight: 600;
-    position: relative;
-    display: inline-block;
-    max-width: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
   }
-  .text_primary {
-    font-size: 22px;
-    color: #0098da;
-    text-align: center;
-    font-family: Playfair Display;
-    font-weight: 700;
-    font-style: normal;
-  }
-  .life_div p {
-    font-size: 20px;
-    font-family: "Source Sans Pro", Arial, sans-serif;
-    font-style: normal;
-  }
-  ul li {
-    font-family: "Montserrat", Arial, sans-serif;
-    font-style: normal;
-    color: #333333;
-  }
-  .bg_rimary {
-    background-color: #0098da !important;
-  }
-  .bg_rimary h1 {
+  .text_h5 {
     font-size: 25px;
-    color: #ffffff;
-    text-align: center;
-    font-family: Abril Fatface;
-    font-weight: 400;
-    font-style: normal;
+    color: #4a4a4a;
+    line-height: 30px;
   }
-  .deal_div{
-      padding-top: 6em;
-  }
-  .deal_div p {
-    font-size: 20px;
-    font-family: "Source Sans Pro", Arial, sans-serif;
-    font-style: normal;
-    color: #777777;
-    font-weight: 400;
-  }
-  .text_rimary {
-    font-size: 22px;
-    color: #0098da;
-    text-align: center;
-    font-family: Playfair Display;
-    font-weight: 700;
-    font-style: normal;
-    line-height: 30px !important;
-  }
-  .text_muted {
-    font-size: 20px;
-    font-family: "Source Sans Pro", Arial, sans-serif;
-    font-style: normal;
-    color: #777777;
-    font-weight: 400;
-  }
-  .text_imary {
-    font-size: 22px;
-    color: #0098da;
+  .text_h55 {
+    font-size: 25px;
+    color: #4a4a4a;
     line-height: 30px;
     text-align: center;
-    font-family: Playfair Display;
-    font-weight: 700;
-    font-style: normal;
   }
-  .text_mary {
-    font-size: 65px;
-    color: #0098da;
+  .reading_h2 {
+    font-size: 30px;
+    line-height: 35px;
+    color: #4a4a4a;
+  }
+  .relate_h2 {
+    font-size: 34px;
+    font-weight: 700;
+  }
+  .text_h3 {
+    font-size: 20px;
+    font-style: italic;
+  }
+  .b_rimary {
+    background-color: #385173;
+  }
+ 
+  .but_text {
+    font-size: 35px;
+    font-weight: 700;
+    color: #4a4a4a;
+  }
+  .crtical_text {
+    font-size: 20px;
+    color: #182433;
+    line-height: 2em;
+  }
+  .heading3 {
+    font-size: 40px;
+    color: #182433;
+    font-weight: 700;
+    margin-top: 1em;
+  }
+  .each {
+    background-color: rgba(60, 72, 84, 0.05);
+    border-radius: 5%;
+  }
+  .text_3 {
+    font-size: 20px;
+    color: #182433;
+    font-weight: 600;
+    line-height: 1.5em;
+  }
+  .texxt_h6 {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.5em;
+  }
+  .decide_text {
+    font-size: 25px;
+    line-height: 30px;
+    color: #4a4a4a;
+  }
+  .text_4 {
+    font-size: 25px;
+    line-height: 30px;
+    color: #4a4a4a;
+    font-weight: 600;
+  }
+  .boder_div {
+    border: none;
+  }
+  .box {
+    box-shadow: 0 5px 30px 0 rgba(214, 215, 216, 0.57);
+    border-radius: 5%;
+  }
+  .underline {
+    border: 3px solid;
+    border-color: #1b68e9;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .access_span {
+    font-size: 25px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 600;
     text-align: center;
-    border-radius: 49%;
-    border: 1.5px solid #0098da;
-    padding: 15px;
+
   }
-  .fw_bold {
-    font-weight: 700;
-    font-family: "Source Sans Pro", Arial, sans-serif;
-    font-style: normal;
+  .access_span a {
+    color: #1b68e9;
+    text-decoration: none;
+    text-align: center;
   }
-  .ready_btn {
-    color: #fff;
-    border-color: #5aa1e3;
-    background-color: #5aa1e3;
-    font-size: 14px;
-    font-family: "Montserrat", Arial, sans-serif;
-    font-style: normal;
-    padding-top: 14px;
-padding-bottom: 14px;
-padding-left: 20px;
-padding-right: 20px;
-    margin-bottom: 1rem;
+  .apply_div {
+    border: none;
   }
-  footer {
-    background-color: #0098da;
+  .apply_divt {
+    border:none;
   }
 }
 
 @media (min-width: 600px) and (max-width: 1024px) {
-  .first_section {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("./images/1stbanner.jpg");
-    background-position: 50% 50%;
-    height: 30vh;
+  .heading1 {
+    font-size: 52px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
   }
-  .overlay_sec {
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
-    z-index: 0;
+  .heading2 {
+    font-size: 30px;
+    letter-spacing: 0px;
+    color: #4a4a4a;
   }
-  .first_section h2 {
-    font-size: 50px;
-    line-height: 52px;
+  .headingh2 {
+    font-size: 30px;
+    letter-spacing: 0px;
+    color: #4a4a4a;
     font-weight: 600;
-    position: relative;
-    display: inline-block;
-    max-width: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
   }
-  .text_primary {
-    font-size: 35px;
-    color: #0098da;
-    text-align: center;
-    font-family: Playfair Display;
-    font-weight: 700;
-    font-style: normal;
-  }
-  .life_div p {
-    font-size: 20px;
-    font-family: "Source Sans Pro", Arial, sans-serif;
-    font-style: normal;
-  }
-  ul li {
-    font-family: "Montserrat", Arial, sans-serif;
-    font-style: normal;
-    color: #333333;
-  }
-  .bg_rimary {
-    background-color: #0098da !important;
-  }
-  .bg_rimary h1 {
-    font-size: 45px;
-    color: #ffffff;
-    text-align: center;
-    font-family: Abril Fatface;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .deal_div p {
-    font-size: 20px;
-    font-family: "Source Sans Pro", Arial, sans-serif;
-    font-style: normal;
-    color: #777777;
-    font-weight: 400;
-  }
-  .text_rimary {
+  .text_h5 {
     font-size: 25px;
-    color: #0098da;
-    text-align: center;
-    font-family: Playfair Display;
-    font-weight: 700;
-    font-style: normal;
+    color: #4a4a4a;
+    line-height: 30px;
   }
-  .text_muted {
+  .reading_h2 {
+    font-size: 30px;
+    line-height: 35px;
+    color: #4a4a4a;
+  }
+  .relate_h2 {
+    font-size: 34px;
+    font-weight: 700;
+  }
+  .text_h3 {
     font-size: 20px;
-    font-family: "Source Sans Pro", Arial, sans-serif;
-    font-style: normal;
-    color: #777777;
-    font-weight: 400;
+    font-style: italic;
   }
-  .text_imary {
+  .apply_divt {
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    border-color: #e9f3ff;
+
+  }
+  .apply_div {
+    border-bottom: none;
+    border-left: 2px solid;
+    border-color: #e9f3ff;
+  }
+  .b_rimary {
+    background-color: #385173;
+  }
+  .but_text {
     font-size: 35px;
-    color: #0098da;
-    text-align: center;
-    font-family: Playfair Display;
     font-weight: 700;
-    font-style: normal;
+    color: #4a4a4a;
   }
-  .text_mary {
-    font-size: 65px;
-    color: #0098da;
-    text-align: center;
-    border-radius: 49%;
-    border: 1.5px solid #0098da;
-    padding: 15px;
+  .crtical_text {
+    font-size: 20px;
+    color: #182433;
+    line-height: 2em;
   }
-  .fw_bold {
+  .heading3 {
+    font-size: 40px;
+    color: #182433;
     font-weight: 700;
-    font-family: "Source Sans Pro", Arial, sans-serif;
-    font-style: normal;
   }
-  .ready_btn {
-    color: #fff;
-    border-color: #5aa1e3;
-    background-color: #5aa1e3;
-    font-size: 14px;
-    font-family: "Montserrat", Arial, sans-serif;
-    font-style: normal;
-    padding-top: 14px;
-padding-bottom: 14px;
-padding-left: 20px;
-padding-right: 20px;
+  .each {
+    background-color: rgba(60, 72, 84, 0.05);
+    border-radius: 5%;
+    width: 90%;
+    margin: auto;
   }
-  footer {
-    background-color: #0098da;
+  .text_3 {
+    font-size: 20px;
+    color: #182433;
+    font-weight: 600;
+    line-height: 1.5em;
+  }
+  .texxt_h6 {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.5em;
+  }
+  .decide_text {
+    font-size: 25px;
+    line-height: 30px;
+    color: #4a4a4a;
+  }
+  .text_4 {
+    font-size: 25px;
+    line-height: 30px;
+    color: #4a4a4a;
+    font-weight: 600;
+  }
+  .boder_div {
+    border-right: 2px solid;
+    border-color: hsla(0, 0%, 60.8%, 0.2);
+  }
+  .box {
+    box-shadow: 0 5px 30px 0 rgba(214, 215, 216, 0.57);
+    border-radius: 5%;
+  }
+  .underline {
+    border: 3px solid;
+    border-color: #1b68e9;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .access_span {
+    font-size: 25px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+
+  }
+  .access_span a {
+    color: #1b68e9;
+    text-decoration: none;
   }
 }
 @media (min-width: 1024px) {
-    .first_section {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url("./images/1stbanner.jpg");
-        background-position: 50% 50%;
-        height: 40vh;
-      }
-      .overlay_sec {
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.75);
-        z-index: 0;
-      }
-      .first_section h2 {
-        font-size: 50px;
-        line-height: 52px;
-        font-weight: 600;
-        position: relative;
-        display: inline-block;
-        max-width: 100%;
-        padding-top: 100px;
-        padding-bottom: 100px;
-      }
-      .text_primary {
-        font-size: 35px;
-        color: #0098da;
-        text-align: center;
-        font-family: Playfair Display;
-        font-weight: 700;
-        font-style: normal;
-      }
-      .life_div p {
-        font-size: 20px;
-        font-family: "Source Sans Pro", Arial, sans-serif;
-        font-style: normal;
-      }
-      ul li {
-        font-family: "Montserrat", Arial, sans-serif;
-        font-style: normal;
-        color: #333333;
-        font-size: 14px;
-      }
-      .bg_rimary {
-        background-color: #0098da !important;
-      }
-      .bg_rimary h1 {
-        font-size: 45px;
-        color: #ffffff;
-        text-align: center;
-        font-family: Abril Fatface;
-        font-weight: 400;
-        font-style: normal;
-      }
-      .deal_div p {
-        font-size: 20px;
-        font-family: "Source Sans Pro", Arial, sans-serif;
-        font-style: normal;
-        color: #777777;
-        font-weight: 400;
-      }
-      .text_rimary {
-        font-size: 25px;
-        color: #0098da;
-        text-align: center;
-        font-family: Playfair Display;
-        font-weight: 700;
-        font-style: normal;
-      }
-      .text_muted {
-        font-size: 20px;
-        font-family: "Source Sans Pro", Arial, sans-serif;
-        font-style: normal;
-        color: #777777;
-        font-weight: 400;
-      }
-      .text_imary {
-        font-size: 35px;
-        color: #0098da;
-        text-align: center;
-        font-family: Playfair Display;
-        font-weight: 700;
-        font-style: normal;
-      }
-      .text_mary {
-        font-size: 65px;
-        color: #0098da;
-        text-align: center;
-        border-radius: 49%;
-        border: 1.5px solid #0098da;
-        padding: 15px;
-        margin-bottom: 15px;
-      }
-      .fw_bold {
-        font-weight: 700;
-        font-family: "Source Sans Pro", Arial, sans-serif;
-        font-style: normal;
-      }
-      .ready_btn {
-        color: #fff;
-        border-color: #5aa1e3;
-        background-color: #5aa1e3;
-        font-size: 14px;
-        font-family: "Montserrat", Arial, sans-serif;
-        font-style: normal;
-        padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 20px;
-    padding-right: 20px;
-      }
-      footer {
-        background-color: #0098da;
-      }
+  .heading1 {
+    font-size: 52px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+  }
+  .heading2 {
+    font-size: 30px;
+    letter-spacing: 0px;
+    color: #4a4a4a;
+  }
+  .headingh2 {
+    font-size: 30px;
+    letter-spacing: 0px;
+    color: #4a4a4a;
+    font-weight: 600;
+  }
+  .text_h5 {
+    font-size: 25px;
+    color: #4a4a4a;
+    line-height: 30px;
+  }
+  .reading_h2 {
+    font-size: 30px;
+    line-height: 35px;
+    color: #4a4a4a;
+  }
+  .relate_h2 {
+    font-size: 34px;
+    font-weight: 700;
+  }
+  .text_h3 {
+    font-size: 20px;
+    font-style: italic;
+  }
+  .b_rimary {
+    background-color: #385173;
+  }
+  .but_text {
+    font-size: 35px;
+    font-weight: 700;
+    color: #4a4a4a;
+  }
+  .crtical_text {
+    font-size: 20px;
+    color: #182433;
+    line-height: 2em;
+  }
+  .heading3 {
+    font-size: 40px;
+    color: #182433;
+    font-weight: 700;
+  }
+  .apply_divt {
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    border-color: #e9f3ff;
+
+  }
+  .apply_div {
+    border-bottom: none;
+    border-left: 2px solid;
+    border-color: #e9f3ff;
+  }
+  .each {
+    background-color: rgba(60, 72, 84, 0.05);
+    border-radius: 5%;
+  }
+  .text_3 {
+    font-size: 20px;
+    color: #182433;
+    font-weight: 600;
+    line-height: 1.5em;
+  }
+  .texxt_h6 {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.5em;
+  }
+  .decide_text {
+    font-size: 25px;
+    line-height: 30px;
+    color: #4a4a4a;
+  }
+  .text_4 {
+    font-size: 25px;
+    line-height: 30px;
+    color: #4a4a4a;
+    font-weight: 600;
+  }
+  .box {
+    box-shadow: 0 5px 30px 0 rgba(214, 215, 216, 0.57);
+    border-radius: 5%;
+  }
+  .boder_div {
+    border-right: 2px solid;
+    border-color: hsla(0, 0%, 60.8%, 0.2);
+  }
+  .underline {
+    border: 3px solid;
+    border-color: #1b68e9;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .access_span {
+    font-size: 25px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+
+  }
+  .access_span a {
+    color: #1b68e9;
+    text-decoration: none;
+  }
 }
